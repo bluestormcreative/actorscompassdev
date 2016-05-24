@@ -1,0 +1,1213 @@
+/*
+Theme Name: ActorsCompass Strapped
+Theme URI: http://underscores.me/
+Author: Keller Digital / Blue Storm Creative
+Author URI: http://kellerdigital.com
+Description: ActorsCompass Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: strapped
+
+
+Strapped is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Accessibility
+# Alignments
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------
+
+colors
+
+teal					= #2E8997
+teal darker 	= #256f7a
+red 					= #f03c3d
+
+
+
+*/
+
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text, .screenreader {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus, .screenreader:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets. */
+.widget select {
+	max-width: 100%;
+}
+
+/* Search widget. */
+
+.form-search input {
+	border-radius:0;
+}
+
+.form-search .input-group-btn button {
+	border: 1px solid #2E8997;
+	background: #2E8997;
+	color: white;
+	border-radius: 0;;
+	text-transform: uppercase;
+	font-family: "museo-slab";
+}
+
+.form-search .input-group-btn button:hover,
+.form-search .input-group-btn button:focus {
+	background:#b5b5b5;
+	border-color:#b5b5b5;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.site-content {
+	padding-bottom:40px;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+}
+
+.comments-title, .comment-reply-title {
+	padding-bottom: 9px;
+	margin: 40px 0 20px 0;
+	border-bottom: 1px solid #eee;
+}
+
+ol.comment-list {
+	list-style:none;
+	padding-left: 0;
+}
+
+.comment-author .avatar {
+	margin-right: 25px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	transition: all .2s ease-in-out;
+	padding: 4px;
+}
+
+.comment-meta {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.comment-details {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ddd;
+}
+
+.comment-details .reply {
+	margin-top: 10px;
+}
+
+.comment-date a {
+	font-size: 11px;
+	color: #777;
+	margin-right: 10px;
+}
+
+#commentform #comment {
+	width: 100% !important;
+}
+
+#commentform #submit {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+
+	color: white;
+	background-color: #2E8997;
+	border-color: #2E8997;
+}
+
+#commentform #submit:hover{
+	color: white;
+	background-color: #f03c3d;
+	border-color: #f03c3d;
+}
+
+
+/* ===============  Forms and Optins =========================== */
+
+.cta-final-form {
+	margin:60px auto 20px;
+	width:600px;
+	max-width:100%;
+}
+
+.cta-final-form input {
+	padding:10px 5px;
+	border:1px solid #2E8997;
+	color:#ccc;
+	font-size:20px;
+	height:50px;
+}
+
+.form-fields-top {
+	margin-bottom:10px;
+}
+
+.form-fields-top input {
+	width:48%;
+	margin-right:1%;
+}
+.cta-final-form input[type=email] {
+	width:70%;
+	margin-right:1%;
+	position:relative;
+	left:-6px;
+}
+.cta-final-form input[type=submit] {
+	color: white;
+	text-transform: uppercase;
+	font-family: "museo-slab";
+	font-size: 18px;
+	width: 25%;
+	padding: 9px;
+	position: relative;
+	top: -4px;
+}
+
+.cta-final-form input[type=submit]:hover,
+.cta-final-form input[type=submit]:focus {
+	border-color:#b5b5b5;
+}
+
+#signup-button {
+	text-align:center;
+}
+
+#signup-button .signup-button {
+	display:block;
+	clear:both;
+	float:none;
+	margin-top:30px;
+	text-align:center;
+}
+
+#signup-button .signup-button .btn {
+	font-size:24px;
+	text-transform: uppercase;
+}
+
+.sidebar-optin input {
+	display:block;
+	margin-bottom:10px;
+	padding:5px;
+	width:100%;
+
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+
+
+/*----------------
+** Customizations
+-----------------------*/
+
+body {
+	font-family:'museo-slab', 'Lato', serif;
+	font-size:16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'museo-slab', 'Lato', serif;
+	font-weight:normal;
+}
+
+p {
+	margin-bottom:1.5em;
+}
+
+a {
+	color:#f03c3d;
+}
+
+article .entry-content a {
+	text-decoration:underline;
+}
+
+a:focus, a:hover {
+	color:#2E8997;
+	text-decoration:none;
+}
+
+article .entry-content a:hover,
+article .entry-content a:focus {
+	text-decoration:none;
+}
+
+.button {
+	display:inline-block;
+	padding:10px 15px;
+	color:white;
+	background: #f03c3d;
+	border:0;
+	border-radius:0;
+	text-transform: uppercase;
+	text-decoration: none!important;
+	border-radius:0;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	transition: all .3s ease;
+}
+
+.button:hover, .button:focus {
+	text-decoration: none;
+	color:white;
+	background:#2E8997;
+	border-color: #2E8997;
+}
+
+
+/* =============== Blog styles =========================== */
+
+.blog article,
+.archive article {
+	padding-bottom:60px;
+	margin-bottom:60px;
+	position:relative;
+}
+
+.blog article:after,
+.archive article:after {
+	position:absolute;
+	bottom:0;
+	left:0;
+	content:"";
+	width:60%;
+	height:1px;
+	background:#2E8997;
+}
+
+.blog .read-more,
+.archive .read-more {
+	float:left;
+	padding:7px 15px;
+	margin:20px 0 40px;
+	font-family:"museo-slab";
+	text-transform: uppercase;
+}
+article .entry-content a.read-more {
+	text-decoration: none!important;
+}
+
+.blog .read-more:hover,
+.archive .read-more:hover,
+.blog .read-more:focus,
+.archive .read-more:focus,
+article .entry-content a.read-more:hover,
+article .entry-content a.read-more:focus {
+	text-decoration: none!important;
+	color:white;
+}
+
+.blog .entry-content:after,
+.archive .entry-content:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.blog .entry-footer,
+.archive .entry-footer,
+.single .entry-footer {
+	position:relative;
+	padding-top:1.5em;
+}
+
+.blog .entry-footer:before,
+.archive .entry-footer:before,
+.single .entry-footer:before {
+	position:absolute;
+	top:0;
+	left:0;
+	content:"";
+	width:100px;
+	height:1px;
+	background:#b5b5b5;
+}
+
+.entry-footer span {
+	display:inline-block;
+}
+
+.blog .entry-title a {
+	color:#2E8997;
+	font-size:34px;
+	font-family: "museo-slab";
+}
+.blog .entry-title a:hover {
+	text-decoration:none!important;
+	color:#256f7a;
+}
+
+/* =============== Blog Nav =========================== */
+
+.nav-links {
+	margin-top:40px;
+	padding-top:20px;
+	margin-bottom:60px;
+	border-top:1px solid #2E8997;
+}
+
+.nav-previous, .nav-next {
+	display:inline-block;
+}
+
+.nav-next {
+	float:right;
+}
+
+.nav-previous a:hover, .nav-next a:hover {
+	text-decoration:none!important;
+}
+
+
+/* =============== Sidebar =========================== */
+
+.widget {
+	margin: 0 0 3em;
+}
+
+.widget-area ol, .widget-area ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+.widget-title {
+	font-family:"museo-slab";
+	text-transform: uppercase;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #2E8997;
+	font-size:20px;
+}
+
+/* =============== controlling FOUT =========================== */
+.wf-loading {
+	visibility: hidden;
+}
+.wf-loading .homehero h1 {
+	letter-spacing: .058em;
+	font-weight: bold;
+}
+.wf-loading .homehero h3 {
+	letter-spacing: .065em;
+	font-weight: bold;
+}
+.wf-loading .site-footer {
+	letter-spacing: .2em;
+}
+.wf-loading .site-footer {
+	letter-spacing: .05em;
+	font-weight: bold;
+}
+.wf-loading .btn {
+	letter-spacing: .002em;
+	font-weight: bold;
+}
+
+
+/* =============== Footer =========================== */
+
+.site-footer {
+	position:relative;
+	padding:40px 0 20px;
+	color:#666;
+}
+
+.site-footer:before {
+	position:absolute;
+	top:0;
+	left:0;
+	content:"";
+	width:100%;
+	height:2px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+0,000000+22,9e0717+23,9e0717+23,9e0717+50,9e0717+50,a5938a+51,a5938a+76,a5938a+76,9e0616+76,9e0616+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(left,  #000000 0%, #000000 0%, #000000 22%, #f03c3d 23%, #f03c3d 23%, #f03c3d 50%, #f03c3d 50%, #a5938a 51%, #a5938a 76%, #a5938a 76%, #9e0616 76%, #9e0616 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #000000 0%,#000000 0%,#000000 22%,#f03c3d 23%,#f03c3d 23%,#f03c3d 50%,#f03c3d 50%,#a5938a 51%,#a5938a 76%,#a5938a 76%,#9e0616 76%,#9e0616 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #000000 0%,#000000 0%,#000000 22%,#f03c3d 23%,#f03c3d 23%,#f03c3d 50%,#f03c3d 50%,#a5938a 51%,#a5938a 76%,#a5938a 76%,#9e0616 76%,#9e0616 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#9e0616',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+.site-info {
+	font-family: 'Lato', 'museo-slab', sans-serif;
+	font-weight:300;
+}
+
+/* =============== Home page =========================== */
+
+.home.page {
+	margin-top:0px;
+}
+
+.home section.homehero {
+	padding: 50px 0 80px;
+	text-align: center;
+	font-size:18px;
+	background:#f7f7f7;
+	margin-bottom:40px;
+}
+
+.hero-text {
+	font-family:'museo-slab', serif;
+	font-weight:300;
+	font-size:24px;
+	color:teal;
+	word-spacing:2px;
+}
+
+.homehero img{
+	display:block;
+	margin:20px auto 30px;
+	width:auto;
+	max-width: 100%;
+	height:auto;
+}
+
+.homehero h3 {
+	font-size:30px;
+	margin-bottom:30px;
+	line-height:1.5;
+}
+
+.homehero .btn {
+	margin-right:20px;
+}
+
+.homehero img#logo {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.homehero h3 {
+	margin-bottom: 50px;
+}
+
+.home h2 {
+	color: #f03c3d;
+}
+
+.home section{
+	padding:20px 0;
+	position:relative;
+}
+
+.home section .col-sm-7 {
+	text-align: center;
+}
+
+.home section:first-child {
+	padding-top:0;
+}
+
+
+.section-heading {
+	font-size:30px;
+	line-height:1.2;
+	font-family: 'museo-slab', serif;
+	font-weight:500;
+	text-transform: uppercase;
+	color:#f03c3d;
+	margin-bottom:30px;
+}
+
+.section-content {
+	font-size:20px;
+	font-family:'Lato', 'museo-slab', serif;
+	font-weight:300;
+	color:#000;
+	letter-spacing: 1px;
+	line-height:1.5;
+}
+
+.cta-final {
+	text-align:center;
+}
+
+.cta-final .section-content {
+	font-family:'museo-slab';
+	color:#2E8997;
+	font-size:24px;
+	letter-spacing: normal;
+}
+
+.cta-final img {
+	width:500px;
+	max-width:100%;
+}
+
+
+/* =============== 404 =========================== */
+
+.error-404 .page-header {
+	border: none;
+	margin: 0;
+}
+.error-404 .page-header .page-title {
+}
+.error-404 .cta .btn {
+	margin-top: 1em;
+}
+.error-404 .page-content {
+	margin-top: 5em;
+}
+.error-404 .search {
+	margin-bottom: 2em;
+	background: #f7f7f7;
+	padding: 2em;
+}
+.error-404 .postlist img {
+	float:left;
+	margin-right: 1em;
+}
+.error-404 .postlist h4 {
+	padding: .5em;
+}
+.error-404 .postlist .post {
+	min-height: 60px;
+}
+.error-404 .postlist .post .imageplaceholder {
+	width: 60px;
+	height: 60px;
+}
+.error-404 #signup-button {
+	margin-top: 20px;
+}
+.error-404 #signup-button .col-xs-12 {
+	padding: 0 1em;
+}
+.error-404 .cta-final-form {
+	margin: 0;
+	width: auto;
+}
+.error-404 .form-fields-top input {
+	width: 100%;
+	margin-bottom: .5em;
+}
+.error-404 .cta-final-form input[type=email] {
+	width: 100%;
+	margin-right: 0;
+	left: 0;
+}
+.error-404 .cta-final-form input[type=submit] {
+	width: 100%;
+	top:inherit;
+	margin-top: 1em;
+}
+
+
+
+/* =============== Misc =========================== */
+
+.clearfix {
+	clear: both;
+}
+.center-block {
+    float: none;
+}
+
+.site-content {
+	padding-top:65px;
+}
+
+
+.redtext {
+	color: #f03c3d;
+}
+img.responsive {
+	max-width: 100%;
+	display: block;
+}
+
+
+/* =============== Buttons (bootstrap) =========================== */
+
+.cta .btn {
+	font-size: 22px;
+	padding:8px 30px;
+	text-transform: uppercase;
+	font-family:"museo-slab";
+	margin-bottom:10px;
+	min-width:200px;
+}
+.btn {
+	border-radius: 0;
+	border:none;
+	font-family:"museo-slab";
+}
+.btn-green {
+	background: #2E8997;
+	color:white;
+}
+
+.btn-green:hover {
+	background: #b5b5b5;
+}
+
+.btn-red{
+	background: #f03c3d;
+	color:white;
+}
+
+.btn-red:hover {
+	background: #b5b5b5;
+}
+
+
+.btn-gray {
+	background: #b5b5b5;
+	color:white;
+}
+.btn-gray:hover {
+	background:#a8a8a8;
+}
+.btn.focus, .btn:focus, .btn:hover {
+	color:#fafafa;
+}
+
+
+/* =============== Navbar =========================== */
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-default {
+	background: white;
+	border:none;
+}
+
+.home .navbar-default {
+	background:#f7f7f7;
+}
+
+.navbar-collapse.collapse.in {
+	display: block !important;
+}
+.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+    text-align: right;
+    width: 200px;
+    float:right;
+    right: 0;
+    background: #1f1f1f;
+    position:absolute;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .35s;
+       -o-transition-duration: .35s;
+          transition-duration: .35s;
+  -webkit-transition-property: height, visibility;
+       -o-transition-property: height, visibility;
+          transition-property: height, visibility;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding:10px 45px;
+}
+.navbar-default .navbar-nav>li>a {
+	color:white;
+}
+
+/* =============== Mobile Navbar Toggle =========================== */
+
+.navbar-toggle {
+	padding:12px 10px;
+}
+
+.navbar-toggle .icon-bar {
+	width:25px;
+	height:3px;
+}
+
+.navbar-default .navbar-toggle {
+	border:0;
+	border-color:transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #2E8997;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #2E8997;
+}
+.navbar a.menutext {
+	padding:19px 9px 10px;
+	display: inline-block;
+	color:#2E8997;
+	text-transform: uppercase;
+	font-size:16px;
+}
+.navbar a.menutext:hover {
+	text-decoration: none;
+}
+.navbar-header {
+    text-align:right;
+}
+.navbar-brand {
+	padding: 7px 15px 15px 15px;
+	margin:10px 0 5px;
+}
+.navbar-brand>img {
+	max-width:400px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background:none;
+	color:#2E8997;
+}
+
+
+
+/* =============== Pro Sites Sign Up =========================== */
+
+#post-19 {
+	width:80%;
+	margin:0 auto;
+}
+
+#post-19 .entry-header {
+	margin-bottom:60px;
+}
+
+/* First sign up page */
+#prosites-checkout-table, .login-existing {
+	display: none;
+	visibility: hidden;
+ }
+ /* Secondary sign up "checkout"
+.logged-in #prosites-checkout-table {
+	display: block;
+	visibility: visible;
+}
+*/
+
+#prosites-signup-form-checkout {
+	display:block ! important;
+	visibility: visible ! important;
+}
+
+#prosites-signup-form-checkout h2 {
+	display:none;
+}
+
+.psts-signup-message {
+	margin-bottom:60px;
+}
+
+#prosites-signup-form-checkout .psts-signup-message {
+	margin-bottom:60px;
+}
+
+#prosites-user-register .username,
+#prosites-user-register .email {
+	margin-bottom:20px;
+}
+
+#prosites-signup-form-checkout label {
+	width:250px;
+	display:block;
+	float:left;
+	color:#2E8997;
+	text-transform: uppercase;
+	font-family:'Lato';
+}
+
+#prosites-user-register .username input,
+#prosites-user-register .email input,
+#prosites-user-register input {
+	display:block;
+	border:1px solid #999;
+	border-radius:0;
+	margin-bottom:10px;
+}
+
+#prosites-user-register input#blogname {
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+#prosites-user-register .blogname .suffix_address {
+	font-weight:bold;
+}
+
+
+#prosites-signup-form-checkout #privacy {
+	display: none ! important;
+	visibility: hidden ! important;
+}
+
+#check-prosite-blog {
+	font-family: 'Museo Slab';
+	padding:10px 15px;
+	font-size:20px;
+	color:white;
+	background:#2E8997;
+	border:0!important;
+	text-transform: uppercase;
+	margin-top:30px;
+}
+
+#check-prosite-blog:hover,
+#check-prosite-blog:focus {
+	background:#B5B5B5;
+	border:0;
+}
+
+#gateways {
+	display: none;
+}
+
+
+
+/* =============== Media Queries =========================== */
+
+@media screen and (min-width: 767px) {
+	.error-404 .page-header .page-title {
+		margin-top:1.5em;
+	}
+}
+@media screen and (min-width: 500px) {
+	.error-404 #signup-button .col-xs-12 {
+		padding: 0 2em;
+	}
+	.error-404 .cta-final-form input[type=submit] {
+		width: 75%;
+	}
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+
+
+}
+
+@media screen and (max-width:768px) {
+	.home section,
+	.home section.homehero {
+		text-align:center;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.homehero .btn {
+		margin-right:0;
+		width:220px;
+	}
+
+	.featured-image img {
+		max-width:100%;
+		height:auto;
+	}
+
+}
+
+@media screen and (max-width:600px) {
+	.col-full-xxs {
+		float: none;
+		width: 100%;
+	}
+	.col-full-xxs img {
+		max-width: 25%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.navbar-brand>img {
+		max-width:100%;
+	}
+
+
+	.cta-final-form input,
+	.cta-final-form input[type=email],
+	.cta-final-form input[type=submit] {
+		display:block;
+		clear:both;
+		width:100%;
+		margin-bottom:10px;
+	}
+
+	.cta-final-form input[type=email] {
+		left:0;
+	}
+	.cta-final-form input[type=submit] {
+		top:0;
+	}
+}

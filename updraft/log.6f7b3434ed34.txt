@@ -1,0 +1,242 @@
+0000.000 (0) Opened log file at time: Wed, 13 Jan 2016 21:36:28 +0000 on http://actorscompassdev.dev
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.9.20 WP: 4.4.1 PHP: 5.5.24 (Darwin shannon-macmillans-macbook-pro.local 14.5.0 Darwin Kernel Version 14.5.0: Tue Sep  1 21:23:09 PDT 2015; root:xnu-2782.50.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.24 Server: Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.5.24 mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 60.1M | 60.8M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 226690.2 Mb
+0000.018 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.024 (0) Requesting semaphore lock (fd)
+0000.028 (0) Set semaphore last lock (fd) time to 2016-01-13 21:36:28
+0000.029 (0) Semaphore lock (fd) complete
+0000.035 (0) Backup run: resumption=0, nonce=6f7b3434ed34, begun at=1452720988 (0s ago), job type=backup, label=Automatic backup before update
+0000.037 (0) Scheduling a resumption (1) after 300 seconds (1452721288) in case this run gets aborted
+0000.054 (0) Checking if we have a zip executable available
+0000.055 (0) Testing: /usr/bin/zip
+0000.073 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.075 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.076 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.078 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.079 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.094 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.110 (0) Working binary zip found: /usr/bin/zip
+0000.113 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.115 (0) Creation of backups of directories: beginning
+0000.120 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0000.333 (0) Total entities for the zip file: 431 directories, 2645 files (0 skipped as non-modified), 40 Mb
+0000.347 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.355 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.364 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.376 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.383 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.385 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 Mb, 2645 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0000.914 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: size is now: 2.40 Mb
+0000.923 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 600 files added (on-disk size: 2499.7 Kb)
+0000.932 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 700 files added (on-disk size: 2499.7 Kb)
+0000.947 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 800 files added (on-disk size: 2499.7 Kb)
+0000.957 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 900 files added (on-disk size: 2499.7 Kb)
+0000.967 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1000 files added (on-disk size: 2499.7 Kb)
+0000.969 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 Mb, 2645 files batched, 501 (1002) added so far); re-opening (prior size: 2499.7 Kb)
+0001.648 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: size is now: 5.70 Mb
+0001.667 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1100 files added (on-disk size: 5788.6 Kb)
+0001.675 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1200 files added (on-disk size: 5788.6 Kb)
+0001.683 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1300 files added (on-disk size: 5788.6 Kb)
+0001.691 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1400 files added (on-disk size: 5788.6 Kb)
+0001.698 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1500 files added (on-disk size: 5788.6 Kb)
+0001.700 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 Mb, 2645 files batched, 501 (1503) added so far); re-opening (prior size: 5788.6 Kb)
+0002.192 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: size is now: 8.60 Mb
+0002.205 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1600 files added (on-disk size: 8824.5 Kb)
+0002.213 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1700 files added (on-disk size: 8824.5 Kb)
+0002.220 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1800 files added (on-disk size: 8824.5 Kb)
+0002.228 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 1900 files added (on-disk size: 8824.5 Kb)
+0002.236 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 2000 files added (on-disk size: 8824.5 Kb)
+0002.238 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.5 Mb, 2645 files batched, 501 (2004) added so far); re-opening (prior size: 8824.5 Kb)
+0003.441 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: size is now: 13.00 Mb
+0003.459 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 2100 files added (on-disk size: 13306.9 Kb)
+0003.467 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 2200 files added (on-disk size: 13306.9 Kb)
+0003.475 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 2300 files added (on-disk size: 13306.9 Kb)
+0003.486 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 2400 files added (on-disk size: 13306.9 Kb)
+0003.494 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 2500 files added (on-disk size: 13306.9 Kb)
+0003.496 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 Mb, 2645 files batched, 501 (2505) added so far); re-opening (prior size: 13306.9 Kb)
+0003.833 (0) Zip: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip.tmp: 2600 files added (on-disk size: 14013.9 Kb)
+0004.175 (0) Created plugins zip (0) - 14828.7 Kb in 4.1 s (3659.3 Kb/s) (SHA1 checksum: 34241c40291470be3eca8bf551541ffb94840a84)
+0004.179 (0) No backup of themes: excluded by user's options
+0004.180 (0) No backup of uploads: excluded by user's options
+0004.181 (0) No backup of wpcore: excluded by user's options
+0004.182 (0) No backup of mu-plugins: excluded by user's options
+0004.184 (0) No backup of others: excluded by user's options
+0004.185 (0) No backup of more: excluded by user's options
+0004.190 (0) Saving backup status to database (elements: 2)
+0004.192 (0) Beginning creation of database dump (WordPress DB)
+0004.207 (0) Table wp_options: Total expected rows (approximate): 156
+0004.223 (0) Table wp_options: Total rows added: 156 in 0.02 seconds
+0004.226 (0) Table wp_options: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_options.table.gz - 21.9 Kb)
+0004.231 (0) Table wp_users: Total expected rows (approximate): 3
+0004.235 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0004.238 (0) Table wp_users: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_users.table.gz - 0.7 Kb)
+0004.242 (0) Table wp_usermeta: Total expected rows (approximate): 49
+0004.248 (0) Table wp_usermeta: Total rows added: 49 in 0.00 seconds
+0004.251 (0) Table wp_usermeta: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_usermeta.table.gz - 1.6 Kb)
+0004.257 (0) Table wp_blog_versions: Total expected rows (approximate): 0
+0004.261 (0) Table wp_blog_versions: Total rows added: 0 in 0.00 seconds
+0004.263 (0) Table wp_blog_versions: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_blog_versions.table.gz - 0.3 Kb)
+0004.269 (0) Table wp_blogs: Total expected rows (approximate): 0
+0004.273 (0) Table wp_blogs: Total rows added: 1 in 0.00 seconds
+0004.275 (0) Table wp_blogs: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_blogs.table.gz - 0.5 Kb)
+0004.282 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0004.286 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.288 (0) Table wp_commentmeta: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0004.294 (0) Table wp_comments: Total expected rows (approximate): 0
+0004.298 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0004.300 (0) Table wp_comments: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_comments.table.gz - 0.7 Kb)
+0004.307 (0) Table wp_links: Total expected rows (approximate): 0
+0004.311 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0004.313 (0) Table wp_links: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_links.table.gz - 0.4 Kb)
+0004.318 (0) Table wp_postmeta: Total expected rows (approximate): 197
+0004.330 (0) Table wp_postmeta: Total rows added: 197 in 0.01 seconds
+0004.332 (0) Table wp_postmeta: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_postmeta.table.gz - 2.7 Kb)
+0004.337 (0) Table wp_posts: Total expected rows (approximate): 42
+0004.358 (0) Table wp_posts: Total rows added: 42 in 0.02 seconds
+0004.361 (0) Table wp_posts: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_posts.table.gz - 25.8 Kb)
+0004.368 (0) Table wp_registration_log: Total expected rows (approximate): 0
+0004.371 (0) Table wp_registration_log: Total rows added: 0 in 0.00 seconds
+0004.373 (0) Table wp_registration_log: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_registration_log.table.gz - 0.4 Kb)
+0004.380 (0) Table wp_signups: Total expected rows (approximate): 0
+0004.384 (0) Table wp_signups: Total rows added: 0 in 0.00 seconds
+0004.391 (0) Table wp_signups: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_signups.table.gz - 0.5 Kb)
+0004.398 (0) Table wp_site: Total expected rows (approximate): 0
+0004.402 (0) Table wp_site: Total rows added: 1 in 0.00 seconds
+0004.406 (0) Table wp_site: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_site.table.gz - 0.4 Kb)
+0004.411 (0) Table wp_sitemeta: Total expected rows (approximate): 84
+0004.442 (0) Table wp_sitemeta: Total rows added: 86 in 0.03 seconds
+0004.445 (0) Table wp_sitemeta: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_sitemeta.table.gz - 72.3 Kb)
+0004.449 (0) Table wp_term_relationships: Total expected rows (approximate): 18
+0004.456 (0) Table wp_term_relationships: Total rows added: 18 in 0.00 seconds
+0004.460 (0) Table wp_term_relationships: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_term_relationships.table.gz - 0.4 Kb)
+0004.466 (0) Table wp_term_taxonomy: Total expected rows (approximate): 7
+0004.472 (0) Table wp_term_taxonomy: Total rows added: 7 in 0.00 seconds
+0004.474 (0) Table wp_term_taxonomy: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_term_taxonomy.table.gz - 0.5 Kb)
+0004.480 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0004.485 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0004.486 (0) Table wp_termmeta: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_termmeta.table.gz - 0.4 Kb)
+0004.491 (0) Table wp_terms: Total expected rows (approximate): 7
+0004.495 (0) Table wp_terms: Total rows added: 7 in 0.00 seconds
+0004.497 (0) Table wp_terms: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_terms.table.gz - 0.5 Kb)
+0004.504 (0) Table wp_csp3_subscribers: Total expected rows (approximate): 0
+0004.509 (0) Table wp_csp3_subscribers: Total rows added: 1 in 0.00 seconds
+0004.512 (0) Table wp_csp3_subscribers: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_csp3_subscribers.table.gz - 0.5 Kb)
+0004.516 (0) Table wp_itsec_lockouts: Total expected rows (approximate): 0
+0004.520 (0) Table wp_itsec_lockouts: Total rows added: 0 in 0.00 seconds
+0004.522 (0) Table wp_itsec_lockouts: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_itsec_lockouts.table.gz - 0.4 Kb)
+0004.529 (0) Table wp_itsec_log: Total expected rows (approximate): 0
+0004.534 (0) Table wp_itsec_log: Total rows added: 1 in 0.00 seconds
+0004.536 (0) Table wp_itsec_log: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_itsec_log.table.gz - 0.5 Kb)
+0004.542 (0) Table wp_itsec_temp: Total expected rows (approximate): 2
+0004.547 (0) Table wp_itsec_temp: Total rows added: 2 in 0.00 seconds
+0004.550 (0) Table wp_itsec_temp: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_itsec_temp.table.gz - 0.5 Kb)
+0004.557 (0) Table wp_nbt_categories_relationships_table: Total expected rows (approximate): 0
+0004.561 (0) Table wp_nbt_categories_relationships_table: Total rows added: 0 in 0.00 seconds
+0004.564 (0) Table wp_nbt_categories_relationships_table: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_nbt_categories_relationships_table.table.gz - 0.3 Kb)
+0004.569 (0) Table wp_nbt_templates: Total expected rows (approximate): 0
+0004.573 (0) Table wp_nbt_templates: Total rows added: 0 in 0.00 seconds
+0004.575 (0) Table wp_nbt_templates: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_nbt_templates.table.gz - 0.4 Kb)
+0004.580 (0) Table wp_nbt_templates_categories: Total expected rows (approximate): 0
+0004.585 (0) Table wp_nbt_templates_categories: Total rows added: 1 in 0.00 seconds
+0004.587 (0) Table wp_nbt_templates_categories: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_nbt_templates_categories.table.gz - 0.4 Kb)
+0004.592 (0) Table wp_pro_sites: Total expected rows (approximate): 0
+0004.597 (0) Table wp_pro_sites: Total rows added: 0 in 0.00 seconds
+0004.598 (0) Table wp_pro_sites: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites.table.gz - 0.4 Kb)
+0004.607 (0) Table wp_pro_sites_daily_stats: Total expected rows (approximate): 2
+0004.613 (0) Table wp_pro_sites_daily_stats: Total rows added: 2 in 0.00 seconds
+0004.615 (0) Table wp_pro_sites_daily_stats: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites_daily_stats.table.gz - 0.4 Kb)
+0004.624 (0) Table wp_pro_sites_signup_stats: Total expected rows (approximate): 0
+0004.628 (0) Table wp_pro_sites_signup_stats: Total rows added: 0 in 0.00 seconds
+0004.631 (0) Table wp_pro_sites_signup_stats: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites_signup_stats.table.gz - 0.3 Kb)
+0004.638 (0) Table wp_pro_sites_transactions: Total expected rows (approximate): 0
+0004.642 (0) Table wp_pro_sites_transactions: Total rows added: 0 in 0.00 seconds
+0004.644 (0) Table wp_pro_sites_transactions: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites_transactions.table.gz - 0.4 Kb)
+0004.649 (0) Table wp_rg_form: Total expected rows (approximate): 0
+0004.653 (0) Table wp_rg_form: Total rows added: 0 in 0.00 seconds
+0004.655 (0) Table wp_rg_form: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_form.table.gz - 0.4 Kb)
+0004.661 (0) Table wp_rg_form_meta: Total expected rows (approximate): 0
+0004.666 (0) Table wp_rg_form_meta: Total rows added: 0 in 0.00 seconds
+0004.669 (0) Table wp_rg_form_meta: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_form_meta.table.gz - 0.3 Kb)
+0004.676 (0) Table wp_rg_form_view: Total expected rows (approximate): 0
+0004.696 (0) Table wp_rg_form_view: Total rows added: 0 in 0.00 seconds
+0004.698 (0) Table wp_rg_form_view: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_form_view.table.gz - 0.4 Kb)
+0004.719 (0) Table wp_rg_incomplete_submissions: Total expected rows (approximate): 0
+0004.724 (0) Table wp_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0004.726 (0) Table wp_rg_incomplete_submissions: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_incomplete_submissions.table.gz - 0.4 Kb)
+0004.731 (0) Table wp_rg_lead: Total expected rows (approximate): 0
+0004.736 (0) Table wp_rg_lead: Total rows added: 0 in 0.00 seconds
+0004.738 (0) Table wp_rg_lead: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead.table.gz - 0.5 Kb)
+0004.743 (0) Table wp_rg_lead_detail: Total expected rows (approximate): 0
+0004.747 (0) Table wp_rg_lead_detail: Total rows added: 0 in 0.00 seconds
+0004.752 (0) Table wp_rg_lead_detail: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_detail.table.gz - 0.4 Kb)
+0004.761 (0) Table wp_rg_lead_detail_long: Total expected rows (approximate): 0
+0004.766 (0) Table wp_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0004.768 (0) Table wp_rg_lead_detail_long: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_detail_long.table.gz - 0.3 Kb)
+0004.774 (0) Table wp_rg_lead_meta: Total expected rows (approximate): 0
+0004.778 (0) Table wp_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0004.781 (0) Table wp_rg_lead_meta: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_meta.table.gz - 0.4 Kb)
+0004.787 (0) Table wp_rg_lead_notes: Total expected rows (approximate): 0
+0004.791 (0) Table wp_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0004.793 (0) Table wp_rg_lead_notes: finishing file (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_notes.table.gz - 0.4 Kb)
+0004.797 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_options.table.gz (1/38): adding to final database dump
+0004.805 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_users.table.gz (2/38): adding to final database dump
+0004.808 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_usermeta.table.gz (3/38): adding to final database dump
+0004.810 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_blog_versions.table.gz (4/38): adding to final database dump
+0004.812 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_blogs.table.gz (5/38): adding to final database dump
+0004.814 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_commentmeta.table.gz (6/38): adding to final database dump
+0004.817 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_comments.table.gz (7/38): adding to final database dump
+0004.822 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_links.table.gz (8/38): adding to final database dump
+0004.823 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_postmeta.table.gz (9/38): adding to final database dump
+0004.827 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_posts.table.gz (10/38): adding to final database dump
+0004.841 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_registration_log.table.gz (11/38): adding to final database dump
+0004.844 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_signups.table.gz (12/38): adding to final database dump
+0004.846 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_site.table.gz (13/38): adding to final database dump
+0004.848 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_sitemeta.table.gz (14/38): adding to final database dump
+0004.907 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_term_relationships.table.gz (15/38): adding to final database dump
+0004.913 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_term_taxonomy.table.gz (16/38): adding to final database dump
+0004.917 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_termmeta.table.gz (17/38): adding to final database dump
+0004.928 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_terms.table.gz (18/38): adding to final database dump
+0004.931 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_csp3_subscribers.table.gz (19/38): adding to final database dump
+0004.935 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_itsec_lockouts.table.gz (20/38): adding to final database dump
+0004.950 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_itsec_log.table.gz (21/38): adding to final database dump
+0004.975 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_itsec_temp.table.gz (22/38): adding to final database dump
+0004.979 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_nbt_categories_relationships_table.table.gz (23/38): adding to final database dump
+0004.990 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_nbt_templates.table.gz (24/38): adding to final database dump
+0004.993 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_nbt_templates_categories.table.gz (25/38): adding to final database dump
+0004.995 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites.table.gz (26/38): adding to final database dump
+0004.997 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites_daily_stats.table.gz (27/38): adding to final database dump
+0005.000 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites_signup_stats.table.gz (28/38): adding to final database dump
+0005.012 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_pro_sites_transactions.table.gz (29/38): adding to final database dump
+0005.015 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_form.table.gz (30/38): adding to final database dump
+0005.016 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_form_meta.table.gz (31/38): adding to final database dump
+0005.021 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_form_view.table.gz (32/38): adding to final database dump
+0005.032 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_incomplete_submissions.table.gz (33/38): adding to final database dump
+0005.037 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead.table.gz (34/38): adding to final database dump
+0005.042 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_detail.table.gz (35/38): adding to final database dump
+0005.056 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_detail_long.table.gz (36/38): adding to final database dump
+0005.061 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_meta.table.gz (37/38): adding to final database dump
+0005.066 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db-table-wp_rg_lead_notes.table.gz (38/38): adding to final database dump
+0005.068 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db.gz: finished writing out complete database file (104 Kb)
+0005.133 (0) Total database tables backed up: 38 (backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db.gz, size: 131249, checksum (SHA1): 1ab0c36cf9c98f46753894699b92a4b041fb1006)
+0005.138 (0) Saving backup history
+0005.161 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.166 (0) backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.177 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0005.182 (0) Cloud backup selection (1/1): none (last)
+0005.183 (0) No remote despatch: user chose no remote backup service
+0005.188 (0) Recording as successfully uploaded: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-plugins.zip (e16895d2ea2f8a34e38097577161c29a)
+0005.195 (0) Recording as successfully uploaded: backup_2016-01-13-2136_ActorsCompass_6f7b3434ed34-db.gz (3a50c590d4d1c727ae1ef6c42d56c6c1)
+0005.208 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.210 (0) Number of backup sets in history: 1
+0005.212 (0) Examining backup set with datestamp: 1452720988 (Jan 13 2016 21:36:28)
+0005.214 (0) This backup set (1452720988) was an automatic backup, and we have not yet reached the retain limit, so it will not be counted or pruned. Skipping.
+0005.215 (0) This backup set (1452720988) was an automatic backup, and we have not yet reached the retain limit, so it will not be counted or pruned. Skipping.
+0005.216 (0) 1452720988: this backup set remains non-empty (1/1); will retain in history
+0005.218 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0005.221 (0) Resume backup (6f7b3434ed34, 0): finish run
+0005.228 (0) Decremented the semaphore (fd) by 1
+0005.232 (0) Semaphore (fd) unlocked
+0005.234 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0005.239 (0) No email will/can be sent - the user has not configured an email address.
+0005.241 (0) The backup apparently succeeded and is now complete

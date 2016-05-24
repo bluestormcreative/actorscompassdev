@@ -1,0 +1,452 @@
+/*-----------------------------------------------------
+
+ ######
+ #     #   ##   #      ###### ##### ##### ######  ####
+ #     #  #  #  #      #        #     #   #      #
+ ######  #    # #      #####    #     #   #####   ####
+ #       ###### #      #        #     #   #           #
+ #       #    # #      #        #     #   #      #    #
+ #       #    # ###### ######   #     #   ######  ####
+
+--------------------------------------------------------
+
+*	Color palettes for AClite theme
+*	Created by:	GDK
+*	Created on:	03/22 2016
+*	Last modified: 03/28/2016
+*	v0.3
+-------------------------------------------------------*/
+
+
+
+
+/*----- #1 - AC TEAL -----
+	KEY
+	A: #ffffff
+	B: #438D8a
+	C: #000000
+	D: #C1DCE0
+	E: #6CACB6
+--------------------*/
+
+.teal {
+	background: #ffffff;		/* Color A */
+	color: #000000;				/* Color C */
+}
+.teal a {
+	color: #000000;				/* Color C */
+}
+.teal a:hover {
+	color: #438D8a;				/* Color B */
+}
+.teal a:active, .teal .navbar {
+	color: #ffffff;				/* Color A */
+}
+
+.teal .navbar {
+	background-color: #438D8a;	/* Color B */
+	color: ;
+}
+.teal .navbar a {
+	color: #ffffff;				/* Color A */
+}
+.teal .navbar a:hover {
+	color: #C1DCE0;				/* Color D */
+}
+.teal .navbar-default .navbar-brand {
+	color: ;
+}
+.teal .navbar .social a {
+	color: #ffffff;				/* Color A */
+}
+.teal .navbar .social a:hover {
+	color: #C1DCE0;				/* Color D */
+}
+.teal #main h1#name {
+	color: #438D8a;				/* Color B */
+}
+.teal #main h1#tagline {
+	color: #000000;				/* Color C */
+}
+.teal #main #topinfo {
+	border-color: #438D8a;		/* Color B */
+}
+.teal #main hr {
+	border-color: #438D8a;		/* Color B */
+}
+.teal #main .stats {
+	color: #000000;				/* Color C */
+}
+.teal #main #resume, .teal #main #resume a {
+	color: #438D8a;				/* Color B */
+}
+.teal #main #resume a:hover {
+	color: #6CACB6;				/* Color E */
+}
+.teal #main h3 {
+	color: #000000;				/* Color C */
+}
+
+
+.teal .site-footer {
+	background: #438D8a;		/* Color B */
+	color: ;
+}
+.teal .site-footer .footer-contact a, .teal .site-footer .footer-social a {
+	color: #ffffff;				/* Color A */
+}
+.teal .site-footer .footer-contact a:hover, .teal .site-footer .footer-social a:hover {
+	color: #C1DCE0;				/* Color D */
+}
+.teal .site-footer  .footer-contact {
+	color: #ffffff;				/* Color A */
+}
+.teal .site-footer .site-info {
+	color: #000000;				/* Color C */
+}
+
+
+
+/*----- #2 BLACK & WHITE -----
+	KEY
+	A: #ffffff
+	B: #000000
+	C: #000000
+	D: #999999
+	E: #666666
+--------------------*/
+
+.blackwhite {
+	background: #ffffff;		/* Color A */
+	color: #000000;				/* Color C */
+}
+.blackwhite a {
+	color: #000000;				/* Color C */
+}
+.blackwhite a:hover {
+	color: #000000;				/* Color B */
+}
+.blackwhite a:active, .blackwhite .navbar {
+	color: #ffffff;				/* Color A */
+}
+
+.blackwhite .navbar {
+	background-color: #000000;	/* Color B */
+	color: ;
+}
+.blackwhite .navbar a {
+	color: #ffffff;				/* Color A */
+}
+.blackwhite .navbar a:hover {
+	color: #999999;				/* Color D */
+}
+.blackwhite .navbar-default .navbar-brand {
+	color: ;
+}
+.blackwhite .navbar .social a {
+	color: #ffffff;				/* Color A */
+}
+.blackwhite .navbar .social a:hover {
+	color: #999999;				/* Color D */
+}
+.blackwhite #main h1#name {
+	color: #000000;				/* Color B */
+}
+.blackwhite #main h1#tagline {
+	color: #000000;				/* Color C */
+}
+.blackwhite #main #topinfo {
+	border-color: #000000;		/* Color B */
+}
+.blackwhite #main hr {
+	border-color: #000000;		/* Color B */
+}
+.blackwhite #main .stats {
+	color: #000000;				/* Color C */
+}
+.blackwhite #main #resume, .blackwhite #main #resume a {
+	color: #000000;				/* Color B */
+}
+.blackwhite #main #resume a:hover {
+	color: #666666;				/* Color E */
+}
+.blackwhite #main h3 {
+	color: #000000;				/* Color C */
+}
+
+
+.blackwhite .site-footer {
+	background: #000000;		/* Color B */
+	color: ;
+}
+.blackwhite .site-footer .footer-contact a, .blackwhite .site-footer .footer-social a {
+	color: #ffffff;				/* Color A */
+}
+.blackwhite .site-footer .footer-contact a:hover, .blackwhite .site-footer .footer-social a:hover {
+	color: #999999;				/* Color D */
+}
+.blackwhite .site-footer  .footer-contact {
+	color: #ffffff;				/* Color A */
+}
+.blackwhite .site-footer .site-info {
+	color: #666666;				/* Color E */
+}
+
+
+
+/*----- #3 BLUE -----
+	KEY
+	A: #D4EBE9
+	B: #027890
+	C: #4E4C4C
+	D: #80B4BB
+	E: #418B98
+--------------------*/
+
+.blue {
+	background: #D4EBE9;		/* Color A */
+	color: #4E4C4C;				/* Color C */
+}
+.blue a {
+	color: #4E4C4C;				/* Color C */
+}
+.blue a:hover {
+	color: #027890;				/* Color B */
+}
+.blue a:active, .blue .navbar {
+	color: #D4EBE9;				/* Color A */
+}
+
+.blue .navbar {
+	background-color: #027890;	/* Color B */
+	color: ;
+}
+.blue .navbar a {
+	color: #D4EBE9;				/* Color A */
+}
+.blue .navbar a:hover {
+	color: #80B4BB;				/* Color D */
+}
+.blue .navbar-default .navbar-brand {
+	color: ;
+}
+.blue .navbar .social a {
+	color: #D4EBE9;				/* Color A */
+}
+.blue .navbar .social a:hover {
+	color: #80B4BB;				/* Color D */
+}
+.blue #main h1#name {
+	color: #027890;				/* Color B */
+}
+.blue #main h1#tagline {
+	color: #4E4C4C;				/* Color C */
+}
+.blue #main #topinfo {
+	border-color: #027890;		/* Color B */
+}
+.blue #main hr {
+	border-color: #027890;		/* Color B */
+}
+.blue #main .stats {
+	color: #4E4C4C;				/* Color C */
+}
+.blue #main #resume, .blue #main #resume a {
+	color: #027890;				/* Color B */
+}
+.blue #main #resume a:hover {
+	color: #418B98;				/* Color E */
+}
+.blue #main h3 {
+	color: #4E4C4C;				/* Color C */
+}
+
+
+.blue .site-footer {
+	background: #027890;		/* Color B */
+	color: ;
+}
+.blue .site-footer .footer-contact a, .blue .site-footer .footer-social a {
+	color: #D4EBE9;				/* Color A */
+}
+.blue .site-footer .footer-contact a:hover, .blue .site-footer .footer-social a:hover {
+	color: #80B4BB;				/* Color D */
+}
+.blue .site-footer  .footer-contact {
+	color: #D4EBE9;				/* Color A */
+}
+.blue .site-footer .site-info {
+	color: #4E4C4C;				/* Color C */
+}
+
+
+/*----- #4 PINK -----
+	KEY
+	A: #F7F4F4
+	B: #E94262
+	C: #3E4058
+	D: #F2B6C1
+	E: #ED778E
+--------------------*/
+
+.pink {
+	background: #F7F4F4;		/* Color A */
+	color: #3E4058;				/* Color C */
+}
+.pink a {
+	color: #3E4058;				/* Color C */
+}
+.pink a:hover {
+	color: #E94262;				/* Color B */
+}
+.pink a:active, .pink .navbar {
+	color: #F7F4F4;				/* Color A */
+}
+
+.pink .navbar {
+	background-color: #E94262;	/* Color B */
+	color: ;
+}
+.pink .navbar a {
+	color: #F7F4F4;				/* Color A */
+}
+.pink .navbar a:hover {
+	color: #F2B6C1;				/* Color D */
+}
+.pink .navbar-default .navbar-brand {
+	color: ;
+}
+.pink .navbar .social a {
+	color: #F7F4F4;				/* Color A */
+}
+.pink .navbar .social a:hover {
+	color: #F2B6C1;				/* Color D */
+}
+.pink #main h1#name {
+	color: #E94262;				/* Color B */
+}
+.pink #main h1#tagline {
+	color: #3E4058;				/* Color C */
+}
+.pink #main #topinfo {
+	border-color: #E94262;		/* Color B */
+}
+.pink #main hr {
+	border-color: #E94262;		/* Color B */
+}
+.pink #main .stats {
+	color: #3E4058;				/* Color C */
+}
+.pink #main #resume, .pink #main #resume a {
+	color: #E94262;				/* Color B */
+}
+.pink #main #resume a:hover {
+	color: #ED778E;				/* Color E */
+}
+.pink #main h3 {
+	color: #3E4058;				/* Color C */
+}
+
+
+.pink .site-footer {
+	background: #E94262;		/* Color B */
+	color: ;
+}
+.pink .site-footer .footer-contact a, .pink .site-footer .footer-social a {
+	color: #F7F4F4;				/* Color A */
+}
+.pink .site-footer .footer-contact a:hover, .pink .site-footer .footer-social a:hover {
+	color: #F2B6C1;				/* Color D */
+}
+.pink .site-footer  .footer-contact {
+	color: #F7F4F4;				/* Color A */
+}
+.pink .site-footer .site-info {
+	color: #3E4058;				/* Color C */
+}
+
+
+/*----- #5 PURPLE -----
+	KEY
+	A: #EDEFEA
+	B: #534456
+	C: #000000
+	D: #A699A6
+	E: #7F6285
+--------------------*/
+
+.purple {
+	background: #EDEFEA;		/* Color A */
+	color: #000000;				/* Color C */
+}
+.purple a {
+	color: #000000;				/* Color C */
+}
+.purple a:hover {
+	color: #534456;				/* Color B */
+}
+.purple a:active, .purple .navbar {
+	color: #EDEFEA;				/* Color A */
+}
+
+.purple .navbar {
+	background-color: #534456;	/* Color B */
+	color: ;
+}
+.purple .navbar a {
+	color: #EDEFEA;				/* Color A */
+}
+.purple .navbar a:hover {
+	color: #A699A6;				/* Color D */
+}
+.purple .navbar-default .navbar-brand {
+	color: ;
+}
+.purple .navbar .social a {
+	color: #EDEFEA;				/* Color A */
+}
+.purple .navbar .social a:hover {
+	color: #A699A6;				/* Color D */
+}
+.purple #main h1#name {
+	color: #534456;				/* Color B */
+}
+.purple #main h1#tagline {
+	color: #000000;				/* Color C */
+}
+.purple #main #topinfo {
+	border-color: #534456;		/* Color B */
+}
+.purple #main hr {
+	border-color: #534456;		/* Color B */
+}
+.purple #main .stats {
+	color: #000000;				/* Color C */
+}
+.purple #main #resume, .purple #main #resume a {
+	color: #534456;				/* Color B */
+}
+.purple #main #resume a:hover {
+	color: #7F6285;				/* Color E */
+}
+.purple #main h3 {
+	color: #000000;				/* Color C */
+}
+
+
+.purple .site-footer {
+	background: #534456;		/* Color B */
+	color: ;
+}
+.purple .site-footer .footer-contact a, .purple .site-footer .footer-social a {
+	color: #EDEFEA;				/* Color A */
+}
+.purple .site-footer .footer-contact a:hover, .purple .site-footer .footer-social a:hover {
+	color: #A699A6;				/* Color D */
+}
+.purple .site-footer  .footer-contact {
+	color: #EDEFEA;				/* Color A */
+}
+.purple .site-footer .site-info {
+	color: #000000;				/* Color C */
+}

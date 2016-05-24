@@ -1,0 +1,145 @@
+/*-----------------------------------------------------
+
+FONTS
+
+--------------------------------------------------------
+
+*	Font palettes for AClite theme
+*	Created by:	SM
+*	Created on:	04/02/ 2016
+*	Last modified: 04/02/2016
+*	v0.3
+-------------------------------------------------------*/
+
+/*
+** KEY
+.fonts1 & default if no choice - Monsterrat / Raleway
+.fonts2 - Oswald caps / Raleway
+.fonts3 - Lobster / Slabo 27px
+.fonts4 - Lora / Lora
+
+*/
+
+/* =============== fonts1 - Montserrat bold / Raleway medium =========================== */
+body.fonts1,
+.fonts1 ul li,
+.fonts1 ol li,
+.fonts1 .header-contact,
+.fonts1 #tagline,
+.fonts1 #topinfo .stats #stat1,
+.fonts1 #resume p,
+.fonts1 #stat1 h4,
+.fonts1 .footer-contact a,
+.fonts1 .site-info,
+.fonts1 .site-info a   {
+	font-family:'Raleway';
+	font-weight:400;
+}
+
+.fonts1 h1,
+.fonts1 h2,
+.fonts1 h3,
+.fonts1 h4,
+.fonts1 h5,
+.fonts1 h6,
+.fonts1 .footer-contact .name {
+	font-family:'Montserrat';
+	font-weight:700;
+}
+
+.fonts1 .creditsskills h3,
+.fonts1 .representation h3 {
+	text-transform: uppercase;
+}
+
+
+/* =============== fonts2 - Oswald uppercase / Raleway =========================== */
+body.fonts2,
+.fonts2 ul li,
+.fonts2 ol li,
+.fonts2 .header-contact,
+.fonts2 #tagline,
+.fonts2 #topinfo .stats #stat1,
+.fonts2 #resume p,
+.fonts2 #stat1 h4,
+.fonts2 .footer-contact a,
+.fonts2 .site-info,
+.fonts2 .site-info a   {
+	font-family:'Raleway';
+	font-weight:400;
+	text-transform:none;
+}
+
+.fonts2 h1,
+.fonts2 h2,
+.fonts2 h3,
+.fonts2 h4,
+.fonts2 h5,
+.fonts2 h6,
+.fonts2 .footer-contact .name {
+	font-family:'Oswald';
+	font-weight:700;
+	text-transform: uppercase;
+}
+
+
+/* =============== fonts3 - Lobster / Slabo 27px =========================== */
+body.fonts3,
+.fonts3 ul li,
+.fonts3 ol li,
+.fonts3 .header-contact,
+.fonts3 #tagline,
+.fonts3 #topinfo .stats #stat1,
+.fonts3 #resume p,
+.fonts3 #stat1 h4,
+.fonts3 .footer-contact a,
+.fonts3 .site-info,
+.fonts3 .site-info a   {
+	font-family:'Slabo 27px';
+	font-weight:400;
+	text-transform:none;
+}
+
+.fonts3 h1,
+.fonts3 h2,
+.fonts3 h3,
+.fonts3 h4,
+.fonts3 h5,
+.fonts3 h6,
+.fonts3 .footer-contact .name {
+	font-family:'Lobster';
+	font-weight:400;
+}
+
+
+/* =============== fonts4 - Lora bold / Lora =========================== */
+body.fonts4,
+.fonts4 ul li,
+.fonts4 ol li,
+.fonts4 .header-contact,
+.fonts4 #tagline,
+.fonts4 #topinfo .stats #stat1,
+.fonts4 #resume p,
+.fonts4 #stat1 h4,
+.fonts4 .footer-contact a,
+.fonts4 .site-info,
+.fonts4 .site-info a   {
+	font-family:'Lora';
+	font-weight:400;
+	text-transform:none;
+}
+
+.fonts4 #tagline {
+	font-weight:700;
+}
+
+.fonts4 h1,
+.fonts4 h2,
+.fonts4 h3,
+.fonts4 h4,
+.fonts4 h5,
+.fonts4 h6,
+.fonts4 .footer-contact .name {
+	font-family:'Lora';
+	font-weight:700;
+}

@@ -1,0 +1,82 @@
+/*
+Part: Main Dashboard override styles
+
+Note: Individual stylesheets must be imported here, as this is the only stylesheet that will apply to the admin dashboard
+*/
+
+@import url("acdash.css");
+
+html.wp-toolbar {
+	padding-top: 0;
+}
+#wpadminbar {
+	display: none;
+	visibility: hidden;
+}
+#adminmenumain {
+	display: none ! important;
+}
+#wpwrap #wpcontent, #wpfooter {
+	margin-left:0 ! important;
+}
+#wpfooter {
+	display:none;
+}
+
+
+.update-nag {
+	position: absolute;
+	top:30px;
+	width: 100%;
+	text-align: center;
+}
+#profile-page.wrap {
+	max-width: 600px;
+	margin: 8em auto 0 auto;
+	background: #EAF3F4;
+	padding: 0em 2em 4em 2em;
+}
+
+#profile-page tr.user-user-login-wrap, #profile-page tr.user-first-name-wrap, #profile-page tr.user-last-name-wrap, #profile-page tr.user-display-name-wrap, #profile-page tr.user-display-name-wrap {
+	display: none;
+}
+#profile-page table.form-table {
+	display: block;
+}
+#profile-page tr.user-nickname-wrap {
+	visibility: hidden;
+}
+#profile-page #pass-strength-result {
+	margin-top: 5px;
+}
+#profile-page .button {
+	border-radius: 0;
+	text-shadow:none;
+	box-shadow: none;
+	border-color: #2E8997;
+	color: #2E8997;
+}
+#profile-page .button-primary {
+	background: #2E8997;
+    background-color: #2E8997;
+    color:white;
+    box-shadow: none;
+    text-shadow:none;
+    border-radius: 0;
+    height: auto;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+}
+
+#profile-page .back-button {
+	text-align: right;
+	clear: right;
+	margin-top: 20px;
+}
+
+#profile-page .button-primary.go-back {
+	float:none;
+	margin-top:20px;
+}

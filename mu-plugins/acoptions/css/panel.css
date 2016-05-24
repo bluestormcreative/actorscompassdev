@@ -1,0 +1,487 @@
+/* imports go here */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../../../themes/AClite/fonts/icomoon.eot?xkhr9m');
+    src:    url('../../../themes/AClite/fonts/icomoon.eot?xkhr9m#iefix') format('embedded-opentype'),
+        url('../../../themes/AClite/fonts/icomoon.ttf?xkhr9m') format('truetype'),
+        url('../../../themes/AClite/fonts/icomoon.woff?xkhr9m') format('woff'),
+        url('../../../themes/AClite/fonts/icomoon.svg?xkhr9m#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+----------------------------
+    AC Options panel styles
+----------------------------
+*/
+
+/*-----------------------
+** Redux ads/notices/etc
+-----------------------*/
+.rAdsContainer {
+	display: none ! important;
+	visibility: none ! important;
+}
+.rAds {
+	display:none ! important;
+	visibility: hidden ! important;
+}
+/* Upgrade Notice nag */
+#redux_blast_1457948692 {
+	display: none;
+}
+/* Redux Dashboard widget */
+#redux_dashboard_widget {
+	display: none;
+}
+
+/* =============== Resume Panel CSS =========================== */
+
+body.toplevel_page_redux_builder_ac_res_options,
+#wpwrap {
+  background-color:#D5E7EA!important;
+}
+
+body.toplevel_page_redux_builder_ac_res_options .wrap>h2:first-child {
+  display:none!important;
+}
+
+body.toplevel_page_redux_builder_ac_res_options #wpcontent {
+  padding-left:0!important;
+}
+
+body.toplevel_page_redux_builder_ac_res_options .wrap {
+  margin-right:0!important;
+}
+
+body.toplevel_page_redux_builder_ac_res_options .redux-container {
+		font-family:'Lato', Helvetica, sans-serif;
+    margin-top:0;
+}
+
+body.toplevel_page_redux_builder_ac_res_options #redux-intro-text,
+body.toplevel_page_redux_builder_ac_res_options .redux-main {
+  width:80%;
+  margin:0 auto;
+}
+
+.toplevel_page_redux_builder_ac_res_options .redux-container,
+.redux-container #redux-intro-text,
+.redux-container #info_bar,
+.redux-main,
+.redux-container #redux-footer {
+	background-color:#D5E7EA!important;
+	background-image:none;
+	border:0;
+}
+
+.admin-color-fresh #redux-header,
+.wp-customizer #redux-header {
+	background:#2E8997;
+	border:0;
+}
+
+.redux-container #redux-header .display_header {
+	margin:0 10px;
+}
+
+.redux-container #redux-header .display_header h2 {
+	text-transform: uppercase;
+}
+
+.redux-container #redux-header .display_header h2:before {
+  font-family:'fontawesome';
+  content:'\f040';
+  display:inline-block;
+  margin-right:5px;
+}
+
+.redux-container #redux-header .display_header span {
+	display:none;
+}
+.redux-container #redux-header .display_header .redux-dev-mode-notice-container {
+	top:10px;
+	right:20px;
+}
+
+.redux-container #redux-intro-text {
+	padding:30px 10px;
+}
+
+#redux-intro-text .view-mobile,
+#redux-sub-footer .view-mobile {
+	display:none;
+}
+
+#redux-intro-text .button {
+	background:#ACD0D6;
+	border:0;
+	color:#2E8997;
+	font-size:14px;
+	text-transform: uppercase;
+	border-radius:0;
+	margin-right:4px;
+}
+
+#redux-intro-text .button i {
+	color:#2E8997;
+  margin-right:2px;
+}
+
+#redux-intro-text .button:hover,
+#redux-intro-text .button:focus {
+	background:#2E8997;
+	color:#ACD0D6;
+}
+
+#redux-intro-text .button:hover i,
+#redux-intro-text .button:focus i {
+	color: #ACD0D6;
+}
+
+#redux-sub-footer .button {
+	background:#fff;
+	color:#2E8997;
+	border:0;
+	border-radius:0;
+	box-shadow:none!important;
+	text-shadow:none!important;
+}
+
+.redux-repeater-accordion .redux-repeaters-add:hover,
+.redux-repeater-accordion .redux-repeaters-add:focus,
+#redux-sub-footer .button:hover,
+#redux-sub-footer .button:focus   {
+	background:#2E8997;
+	color:white;
+}
+
+#resume-options-media,
+.wp-core-ui.toplevel_page_redux_builder_ac_res_options .button-primary.redux-repeaters-add {
+  background:#2E8997;
+	color:white;
+  border:0;
+  border-radius:0;
+  box-shadow:none!important;
+  text-shadow:none!important;
+}
+
+.redux-action_bar input[type=submit]{
+  background:#24464C;
+  color:#fff;
+  text-transform:uppercase;
+  border:0;
+  border-radius:0;
+  box-shadow:none!important;
+  text-shadow:none!important;
+}
+
+.redux-action_bar input[type=submit]:hover,
+.redux-action_bar input[type=submit]:focus{
+  background:#2e8997;
+}
+.wp-core-ui.toplevel_page_redux_builder_ac_res_options .button-primary.redux-repeaters-add:hover,
+.wp-core-ui.toplevel_page_redux_builder_ac_res_options .button-primary.redux-repeaters-add:focus,
+#resume-options-media:focus,
+#resume-options-media:hover {
+  background:white;
+  color:#2e8997;
+}
+
+
+#redux-sub-footer .button {
+	box-sizing:border-box;
+	text-align:left;
+	margin:10px;
+}
+
+#resume-options-media,
+.redux-repeaters-add {
+	text-transform: uppercase;
+}
+
+.redux-group-tab h2{
+	color:#2e8997;
+	font-size:26px;
+	text-transform: uppercase;
+	font-weight:400;
+  font-family: 'Museo Slab';
+}
+
+.redux-container .redux-group-tab .redux-section-desc {
+	font-size:14px;
+}
+
+.redux-main .redux_field_th {
+	text-transform: uppercase;
+  font-size:16px;
+}
+.redux-main span.pro-tip {
+	color:#2E8997;
+	text-transform: none;
+}
+.redux-main span.description {
+	text-transform: none;
+}
+.redux-main span.pro-tip a,
+.redux-main span.description a {
+	text-decoration:none;
+  color:#9C1C1F;
+}
+
+.redux-main span.description a:hover,
+.redux-main span.description a:focus,
+.redux-main span.pro-tip a:hover,
+.redux-main span.pro-tip a:focus {
+	text-decoration:underline;
+	color:#24464C;
+}
+
+.redux-container .ui-accordion .ui-accordion-content, .control-section-redux .ui-accordion .ui-accordion-content, .control-panel-redux .ui-accordion .ui-accordion-content, .redux-metabox .ui-accordion .ui-accordion-content {
+	border:0!important;
+	border-radius:0!important;
+}
+
+
+.redux-container-repeater .redux-repeater-accordion-repeater h3.ui-accordion-header {
+	border:0;
+	background-image:none!important;
+	background-color:#ACD0D6!important;
+	color:#2E8997;
+	margin-top:0!important;
+	border-radius:0px;
+	box-shadow:none;
+}
+
+.redux-container-repeater .redux-repeater-header {
+	text-shadow:none;
+	color:#000;
+}
+
+.redux-main input {
+	box-shadow:0!important;
+	text-shadow:0!important;
+	border-color:#999!important;
+	color:#666;
+}
+
+.redux-container-repeater .redux-repeaters-remove {
+	background:#EAF3F4;
+	border:0;
+	border-radius:0;
+	text-transform: uppercase;
+	box-shadow:none;
+	text-shadow:none;
+}
+
+.redux-container-repeater .redux-repeaters-remove:hover,
+.redux-container-repeater .redux-repeaters-remove:focus {
+	background:#F03C3D;
+	color:white!important;
+}
+
+#redux-defaults-section,
+#redux-defaults,
+.redux-timer,
+#footer-thankyou {
+	display:none;
+}
+
+#redux_builder_ac_res-redux_options_object {
+	display:none!important;
+}
+
+#wpfooter {
+		background:#2E8997;
+		color:white;
+		text-transform: uppercase;
+}
+
+#wpfooter #footer-upgrade:before {
+	font-family:'icomoon';
+	content: "\43";
+}
+
+/* =============== Social Icomoon Icons =========================== */
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ActorsCompass:before {
+    content: "\43";
+}
+
+.icon-ActorsAccess:before {
+    content: "\41";
+}
+.icon-Backstage:before {
+    content: "\42";
+}
+.icon-Facebook:before {
+    content: "\46";
+}
+.icon-Instagram:before {
+    content: "\47";
+}
+.icon-IMDb:before {
+    content: "\49";
+}
+.icon-Resume:before {
+    content: "\52";
+}
+.icon-SoundCloud:before {
+    content: "\53";
+}
+.icon-Twitter:before {
+    content: "\54";
+}
+.icon-Vimeo:before {
+    content: "\56";
+}
+.icon-YouTube:before {
+    content: "\59";
+}
+
+/* =============== Media Queries =========================== */
+
+@media (max-width:960px) {
+	.auto-fold #wpcontent,
+	.auto-fold #wpfooter {
+		margin-left:0;
+	}
+}
+
+
+@media (max-width:768px) {
+
+	#wpbody {
+		top:-54px;
+	}
+	.auto-fold #wpcontent {
+		padding-left:0;
+	}
+
+  body.toplevel_page_redux_builder_ac_res_options #redux-intro-text,
+  body.toplevel_page_redux_builder_ac_res_options .redux-main {
+    width:90%;
+  }
+
+
+	.redux-container form {
+		width:100%!important;
+		margin-bottom:30px;
+	}
+
+	#redux-intro-text {
+			padding:10px 10px!important;
+	}
+	#redux-intro-text .view-mobile,
+	#redux-sub-footer .view-mobile {
+		display:block;
+	}
+	#redux-intro-text .view-desktop {
+		display:none;
+	}
+
+	#redux-intro-text .view-mobile .button {
+		width:100%!important;
+		text-align:center;
+		padding:15px;
+	}
+
+	.redux-container .form-table td input[type=text] {
+		border:1px solid #999!important;
+		border-radius:0!important;
+		color:#666;
+		box-shadow:none!important;
+		text-shadow:none!important;
+		background:white!important;
+	}
+
+  .redux-container .form-table th,
+  .redux-container .form-table td {
+    padding-left:0!important;
+    padding-right:0!important;
+    margin-left:0;
+    margin-right:0;
+  }
+
+	#redux-sticky .redux-action_bar {
+		display:none;
+	}
+
+	#redux-footer .redux-action_bar {
+		width:100%;
+		display:block;
+		float:none;
+	}
+
+	.redux-action_bar input[type=submit],
+	#resume-options-media,
+	.redux-repeater-accordion .redux-repeaters-add,
+	.wp-core-ui.toplevel_page_redux_builder_ac_res_options .button-primary,
+	.redux-main .redux-action_bar .button,
+	#redux_save,
+	#redux-sub-footer .button  {
+		display:block;
+		clear:both;
+		float:none;
+		width:100%!important;
+		text-align:center;
+		padding:15px;
+		font-size:16px;
+	}
+		#resume-options-media {
+			margin-top:5px;
+		}
+
+		.redux-container-repeater .redux-repeaters-remove {
+			width:100%!important;
+			display:block;
+			text-align:center;
+			padding:15px;
+		}
+
+	#redux-sub-footer {
+			margin:0 10px;
+	}
+
+	#redux-sub-footer .button {
+		margin:10px 0;
+		text-align: left!important;
+    padding-left: 10px;
+    text-transform: uppercase;
+		position:relative;
+	}
+
+	#redux-sub-footer .button.logout {
+		color:#F03C3D !important;
+	}
+
+	#redux-sub-footer .button.logout:hover,
+	#redux-sub-footer .button.logout:focus {
+		color:white!important;
+		background:#F03C3D !important;
+	}
+
+	#redux-sub-footer .fa-chevron-right {
+		position:absolute;
+		top:20px;
+		right:10px;
+	}
+
+}

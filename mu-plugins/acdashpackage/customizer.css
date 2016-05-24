@@ -1,0 +1,159 @@
+/* =============== Customizer =========================== */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic);
+
+.ac-admin-bar {
+  display:none;
+}
+
+#customize-controls .customize-info {
+  display:none!important;
+}
+
+.wp-full-overlay-sidebar, .customize-controls-close {
+  border-right: none;
+}
+
+
+#accordion-section-credits_skills {
+  display:list-item!important;
+}
+
+#customize-header-actions {
+  background:#2E8997;
+  border-bottom-color:white;
+  color:white;
+}
+
+#customize-header-actions input[type=submit] {
+  border:0;
+  box-shadow:none!important;
+  text-shadow:none!important;
+  border-radius:0;
+  background:white;
+  color:#2E8997;
+}
+
+#customize-header-actions input[type=submit].button-primary[disabled],
+#customize-header-actions input[type=submit].button-primary:disabled {
+  border:0!important;
+  box-shadow:none!important;
+  text-shadow:none!important;
+  border-radius:0!important;
+  background:white!important;
+  color:#2E8997!important;
+  opacity:.8!important;
+}
+
+
+#customize-controls .wp-full-overlay-sidebar-content {
+  background:#D5E7EA;
+}
+
+#customize-controls {
+  font-family:'Lato';
+  background:#D5E7EA;
+}
+
+.customize-controls-close {
+  background:transparent;
+}
+
+.customize-controls-close:before {
+  color:white;
+  content: "\f340"!important;
+}
+
+.customize-controls-close:hover,
+.customize-controls-close:focus,
+.customize-controls-close:hover:before,
+.customize-controls-close:focus:before {
+  background:white;
+  color:#f03c3d;
+}
+
+.admin-color-fresh #customize-theme-controls .control-section.control-section-redux:hover>h3.accordion-section-title,
+.admin-color-fresh #customize-theme-controls .control-section.control-section-redux h3.accordion-section-title:hover,
+.admin-color-fresh #customize-theme-controls .control-section.control-section-redux.open h3.accordion-section-title,
+.admin-color-fresh #customize-theme-controls .control-section.control-section-redux h3.accordion-section-title:focus,
+.admin-color-fresh #customize-theme-controls .control-panel.control-panel-redux:hover>h3.accordion-section-title,
+.admin-color-fresh #customize-theme-controls .control-panel.control-panel-redux h3.accordion-section-title:hover,
+.admin-color-fresh #customize-theme-controls .control-panel.control-panel-redux.open h3.accordion-section-title,
+.admin-color-fresh #customize-theme-controls .control-panel.control-panel-redux h3.accordion-section-title:focus,
+#customize-controls .control-section .accordion-section-title:focus,
+#customize-controls .control-section .accordion-section-title:hover,
+#customize-controls .control-section.open .accordion-section-title,
+#customize-controls .control-section:hover>.accordion-section-title {
+  background:#2E8997!important;
+  color:white!important;
+}
+
+#customize-theme-controls .accordion-section-title:hover:after,
+#customize-theme-controls .accordion-section-title:focus:after {
+  color:white!important;
+}
+
+#customize-theme-controls .accordion-section-title,
+#customize-controls .control-section .customize-section-title h3,
+#customize-controls .control-section h3.customize-section-title,
+#customize-controls .customize-info .panel-title {
+  text-transform: uppercase;
+}
+
+.admin-color-fresh #customize-theme-controls .control-panel-redux .customize-panel-back:hover,
+.admin-color-fresh #customize-theme-controls .redux-section .customize-section-back:hover {
+  background:#2E8997!important;
+}
+
+.wp-core-ui .wp-full-overlay .collapse-sidebar-label {
+  text-transform: uppercase;
+}
+
+.wp-core-ui .wp-full-overlay .collapse-sidebar:focus,
+.wp-core-ui .wp-full-overlay .collapse-sidebar:hover {
+  color:#2E8997!important;
+}
+
+#customize-controls #customize-control-ac_resume_link_section .button {
+  display:block;
+  margin:10px 0;
+  width:100%;
+  box-shadow:none!important;
+  text-shadow:none;
+  font-style:normal;
+  text-transform:uppercase;
+  color:#2E8997;
+  background:white;
+  border-radius:0;
+  text-align:center;
+  border:0;
+  padding:10px 0;
+  height:auto;
+}
+
+#customize-controls #customize-control-ac_resume_link_section .button:hover,
+#customize-controls #customize-control-ac_resume_link_section .button:focus {
+  background:#2E8997;
+  color:white;
+}
+
+#customize-controls #customize-control-ac_resume_link_section .description.customize-control-description {
+  font-size:16px;
+}
+
+.customize-controls-preview-toggle {
+  background:#2E8997!important;
+  color:white!important;
+}
+
+.customize-controls-preview-toggle:hover,
+.customize-controls-preview-toggle:focus {
+  background:white!important;
+  color:#2E8997!important;
+}
+
+
+/* =============== Redux palettes =========================== */
+
+.redux-container-palette label.ui-button.ui-widget .ui-button-text span:hover {
+  flex-grow:.5!important;
+}
